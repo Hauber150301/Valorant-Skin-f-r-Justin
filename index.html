@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Skin Wunsch</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: white;
+      animation: backgroundAnimation 10s infinite alternate;
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+      }
+
+      100% {
+        background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+      }
+    }
+
+    .message {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .message h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #f39c12;
+    }
+
+    .skins {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skins img {
+      width: 200px;
+      margin: 0 10px;
+      border: 2px solid #f39c12;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .skins img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="message">
+    <h1>Justin Hauber hätte so gerne einen Valorant Skin</h1>
+    <div class="skins">
+      <img src=https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/07/valorant-skins-daydreams-550x309.jpg>
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6r2SSZch-bIoaObeDhYUDJAhT06LHuuje2g&usqp=CAU>
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ6ViXQtxX1vidD3fL61m3JFbkg7s5Lv2VWA&usqp=CAU>
+    </div>
+  </div>
+</body>
+
+</html>
